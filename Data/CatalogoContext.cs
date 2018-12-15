@@ -9,7 +9,7 @@ namespace ApiProdutos.Data
         public DbSet<Categoria> Categorias { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost,1433;Database=Catalogo;User ID=SA;Password=123456");
+            optionsBuilder.UseSqlServer(Settings.ConnectionString);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

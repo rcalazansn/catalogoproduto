@@ -8,7 +8,7 @@ namespace ApiProdutos.Controllers
         [Route("v1/versao")]
         public string Get()
         {
-            return "versao: 1.0";
+            return "versao: 2.0";
         }
     }
 }
