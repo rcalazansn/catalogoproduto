@@ -1,17 +1,33 @@
-using System;
+﻿using System;
 
-namespace ApiProdutos.Models
+namespace API.Models
 {
-    public class Produto
+    public class Produto : Entity
     {
-        public int Id { get; set; }
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
-        public int Quantidade { get; set; }
-        public decimal Preco { get; set; }
-        public DateTime Criacao { get; set; }
-        public DateTime Alteracao { get; set; }
-        public int CategoriaId { get; set; }        
-        public Categoria Categoria { get; set; }      
+        public Produto(string nome, string descricao, decimal preco, int quantidade)
+        {
+            Nome = nome;
+            Descricao = descricao;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
+        public Produto(Guid id, string nome, string descricao, decimal preco, int quantidade)
+        {
+            Nome = nome;
+            Descricao = descricao;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
+        public string Nome { get; private set; }
+        public string Descricao { get; private set; }
+        public decimal Preco { get; private set; }
+        public int Quantidade { get; private set; }
+
+        public override string ToString()
+        {
+            return $"{Nome} - {Descricao}";
+        }
     }
 }

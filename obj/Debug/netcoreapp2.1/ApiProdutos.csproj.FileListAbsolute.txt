@@ -12,3 +12,17 @@ C:\Users\Rodrigo\Desktop\+\EF\ApiProdutos\obj\Debug\netcoreapp2.1\ApiProdutos.As
 C:\Users\Rodrigo\Desktop\+\EF\ApiProdutos\obj\Debug\netcoreapp2.1\ApiProdutos.RazorTargetAssemblyInfo.cache
 C:\Users\Rodrigo\Desktop\+\EF\ApiProdutos\obj\Debug\netcoreapp2.1\ApiProdutos.dll
 C:\Users\Rodrigo\Desktop\+\EF\ApiProdutos\obj\Debug\netcoreapp2.1\ApiProdutos.pdb
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.csprojAssemblyReference.cache
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.csproj.CoreCompileInputs.cache
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.RazorAssemblyInfo.cache
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.RazorAssemblyInfo.cs
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.AssemblyInfoInputs.cache
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.AssemblyInfo.cs
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.dll
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.pdb
+D:\GIT\catalogoproduto\bin\Debug\netcoreapp2.1\ApiProdutos.deps.json
+D:\GIT\catalogoproduto\bin\Debug\netcoreapp2.1\ApiProdutos.runtimeconfig.json
+D:\GIT\catalogoproduto\bin\Debug\netcoreapp2.1\ApiProdutos.runtimeconfig.dev.json
+D:\GIT\catalogoproduto\bin\Debug\netcoreapp2.1\ApiProdutos.dll
+D:\GIT\catalogoproduto\bin\Debug\netcoreapp2.1\ApiProdutos.pdb
+D:\GIT\catalogoproduto\obj\Debug\netcoreapp2.1\ApiProdutos.RazorTargetAssemblyInfo.cache

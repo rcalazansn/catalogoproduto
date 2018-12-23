@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using ApiProdutos.Data;
@@ -24,7 +25,7 @@ namespace ApiProdutos.Controllers
 
         [HttpGet]
         [Route("v1/categorias/{id}")]
-        public Categoria Get(int id)
+        public Categoria Get(Guid id)
         {
             return _context.Categorias.AsNoTracking().Where(x => x.Id == id).FirstOrDefault();
             //Find(Id) não suporta
@@ -32,7 +33,7 @@ namespace ApiProdutos.Controllers
 
         [HttpGet]
         [Route("v1/categorias/{id}/produtos")]
-        public IEnumerable<Produto> GetProdutos(int id)
+        public IEnumerable<Produto> GetProdutos(Guid id)
         {
             return _context.Produtos.AsNoTracking().Where(x => x.CategoriaId == id).ToList();
         }
